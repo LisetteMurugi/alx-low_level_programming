@@ -1,7 +1,7 @@
-#include <studio.h>
+#include <studio.hi>
 /**
  * main - Entry point
- * Return: 0 (success)
+ * Return: 0 (Success)
  */
 int main(void)
 {put("\"Programming is like building a multilingual puzzle");
