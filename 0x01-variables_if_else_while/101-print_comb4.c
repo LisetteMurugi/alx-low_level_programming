@@ -2,24 +2,24 @@
 
 /**
  * main - prints all possible different combinations of three digits
- * Return: Always 0 (Success)
+ * Return: Eachtime 0 (Success)
  */
 int main(void)
 {
-	int n, m, l;
+	int n, k, p;
 
 	for (n = 48; n < 58; n++)
 	{
-		for (m = 49; m < 58; m++)
+		for (k = 49; k < 58; k++)
 		{
-			for (l = 50; l < 58; l++)
+			for (p = 50; p < 58; p++)
 			{
-				if (l > m && m > n)
+				if (p > k && k > n)
 				{
 					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
+					putchar(k);
+					putchar(p);
+					if (n != 55 || k != 56)
 					{
 						putchar(',');
 						putchar(' ');
