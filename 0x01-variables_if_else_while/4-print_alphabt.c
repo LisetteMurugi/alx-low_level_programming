@@ -3,9 +3,9 @@
 #include <string.h>
 
 /**
- * main - Prints the alphabet without q and e.
+ * main - Prints the alphabet in lowercase without q and e.
  *
- * Return: Always 0 (Success)
+ * Return: Eachtime 0 (Success)
  */
 int main(void)
 {
